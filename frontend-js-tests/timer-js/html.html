@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Timer Incremental</title>
+  <style>
+    #timer {
+      font-size: 2rem;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    button {
+      margin: 10px;
+      padding: 10px;
+      font-size: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <div id="timer">
+    <span id="spHeure">10</span> :
+    <span id="spMinute">23</span> :
+    <span id="spSecond">05</span>
+  </div>
+  <div style="text-align: center;">
+    <button onclick="incrementerTimer()">Démarrer</button>
+    <button onclick="stopTimer()">Arrêter</button>
+  </div>
+
+  <script src="rest.js"></script>
+</body>
+</html>
